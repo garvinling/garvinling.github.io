@@ -1,0 +1,163 @@
+
+
+@font-face {
+  font-family: vcr-mono;
+  src: url("/font/VCR_MONO.ttf"); }
+
+.activity-item {
+  font-family: vcr-mono;
+  color: #717171;
+  font-weight: 100;
+  margin-bottom: 60px; }
+  .activity-item .activity-timestamp {
+    margin-top: 10px; }
+
+    .App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+
+.portfolio-container {
+  padding: 50px;
+  font-family: 'Roboto Slab',sans-serif;
+  background-color: white; }
+  .portfolio-container .title-container {
+    margin-bottom: 50px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 25px; }
+  .portfolio-container .portfolio-row {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 15px; }
+
+    .turbo-red {
+  color: #FF6B6B; }
+
+.portfolio-item {
+  font-family: 'Roboto Slab',sans-serif;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px; }
+
+.item-info {
+  padding-left: 0px; }
+
+.project-name {
+  font-weight: 700; }
+
+.project-summary {
+  color: #717171;
+  padding: 15px;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.img-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  margin-bottom: 10px;
+  overflow: hidden; }
+
+.item-footer {
+  height: 10px;
+  background-color: #90D86E;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .hero-container {
+    font-family: 'Roboto Slab',sans-serif;
+    font-weight: 700;
+    width: 100%;
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 200px; }
+    .hero-container .name-container {
+      width: 350px;
+      margin: 0 auto;
+      color: #2F2F2F;
+      letter-spacing: 2px; }
+      .hero-container .name-container .main-title {
+        font-weight: 700; }
+    .hero-container .subtitle {
+      width: 500px;
+      margin: 0 auto;
+      margin-top: 25px;
+      font-size: 1.5em;
+      font-weight: 700; }
+    .hero-container .media-links {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 1.3em; }
+
+  .hero-content {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;}
+
+  @media (min-width: 375px) and (max-width: 767px) {
+    .hero-container .name-container .main-title {
+      font-weight: 700;
+      font-size: 1.7em; }
+    .hero-container .subtitle {
+      width: 80%;
+      font-size: 0.8em; }
+    .hero-container .media-links {
+      font-size: 1em; }
+    .hero-content {
+      width: 100%;
+      margin: 0 auto; } }
+
+  @media (min-width: 0px) and (max-width: 374px) {
+    .hero-container .name-container .main-title {
+      font-weight: 700;
+      font-size: 1.7em; }
+    .hero-container .subtitle {
+      width: 80%;
+      font-size: 0.8em; }
+    .hero-container .media-links {
+      font-size: 1em; }
+    .hero-content {
+      width: 100%;
+      margin: 0 auto; } }
+
+      body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+    text-align: center;
+  font-size: 14px; }
+
+a {
+  color: #FF6B6B; }
+  a:hover {
+    color: #ff3838 !important;
+    text-decoration: none; }
+  a:active, a:visited {
+    text-decoration: none; }
+
+.section-header {
+  font-family: 'Roboto Slab',sans-serif;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 700; }
